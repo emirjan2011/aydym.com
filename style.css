@@ -1,0 +1,282 @@
+@keyframes example{
+    0%{
+        background-color: #b9b9b9;
+    }
+    100%{
+        background-color: #252726;
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background: none;
+    position: fixed;
+    width: 250px;
+}
+
+.top{
+    background-color: #1b1b1a;
+    border-radius: 10px;
+    height: 155px;
+    width: 300px;
+}
+
+.top .logo{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    height: 60px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+.top a{     
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    margin-left: 20px;
+}
+
+.home{
+    margin-bottom: 24px;
+}
+
+.bottom{
+    background-color: #1b1b1a;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 770px;
+}
+
+.bottom .links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.bottom .links{
+    margin-top: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.bottom .links .right{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 80px;
+    padding: 5px;
+    height: 20px;
+}
+
+.bottom .links .right:hover{
+    background-color: rgb(138, 138, 138);
+    border-radius: 50%;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.bottom .create{
+    background-color: #252726;
+    border-radius: 10px;
+    margin: 0px 10px;
+    padding: 3px 15px;
+}
+
+.bottom .create h3{
+    color: white;
+}
+.bottom .create h4{
+    color: white;
+}
+
+.bottom .create button{
+    transition: all .5s ease;
+    background-color: white;
+    border: none;
+    height: 30px;
+    width: 130px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.bottom .create button:hover{
+    transform: scale(1.1);
+}
+
+.bottom .follow{
+    background-color: #252726;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 3px 15px;
+}
+
+.bottom .follow h3{
+    color: white;
+}
+
+.bottom .follow h4{
+    color: white;
+}
+
+.bottom .follow button{
+    transition: all .5s ease;
+    background-color: white;
+    border: none;
+    height: 30px;
+    width: 150px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.bottom .follow button:hover{
+    transform: scale(1.1);
+}
+
+.bottom .first{
+    margin-top: 90px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.bottom .first a{
+    color: rgb(158, 158, 158);
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0px 10px;
+}
+
+.bottom .second{
+    margin: 10px 20px;
+}
+
+.bottom .second a{
+    color: rgb(158, 158, 158);
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0px 10px;
+}
+
+
+.bottom .third{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom .third a{
+    color: rgb(158, 158, 158);
+    text-decoration: none;
+    font-size: 12px;
+    margin: 5px 10px;
+}
+
+.bottom .btn{
+    transition: all .5s ease;
+    background: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    margin-left: 29px;
+    color: white;
+    font-size: 18px;
+}
+
+
+.bottom .btn:hover{
+    transform: scale(1.1);
+}
+
+main .top{
+    position: fixed;
+    left: 320px;
+    height: 60px;
+    display: flex;
+    width: 1550px;
+    border-radius: 8px 8px 0px 0px;
+    align-items: center;
+}
+
+main{
+    margin-left: 312px;
+    border-radius: 8px;
+    background:linear-gradient(#313131,#252726, #252726, #252726,#252726, #252726, #252726);
+    height: 934px;
+    position: fixed;
+    flex: 1 1 100px;
+    width: 1550px;
+}
+
+
+main .top .links a{
+    background-color: rgb(14, 14, 14);
+    padding: 5px;
+    border-radius: 50%;
+    cursor:no-drop;
+}
+
+main img{
+    flex: 1 1 100px;
+    width: 180px;
+    margin-top: 10px;
+    height: 180px;
+    margin-left: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 15px 30px #1a1a1a;
+}
+
+main .popular .item h3{
+    color: white;   
+    margin-left: 10px;
+}
+
+main h1{
+    margin-top: 60px;
+    color: white;
+    margin-left: 20px;
+}
+
+main .popular .item p{
+    color: white;
+    margin-left: 10px;
+    margin-top: 0px;
+    display: inline;
+}
+
+main .popular .item{
+    transition: all .3s ease;
+    height: 280px;
+    width: 200px;
+}
+
+main .popular .item:hover{
+    background: linear-gradient(#1a1a1a, #383838, #383838);
+    border-radius: 8px;
+}
+
+main .popular{
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+}
